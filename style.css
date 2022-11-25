@@ -16,6 +16,12 @@ h1 {
 .image {
     margin: 20px;
     border-radius: 50px;
+    transition: transform 0.3s;
+}
+
+.image:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 4px rgb(104, 93, 93);
 }
 
 #indexcolor {
@@ -59,6 +65,7 @@ h1 {
 }
 
 .material-symbols-outlined {
+transition: transform 0.3s;
 font-variation-settings:
 'FILL' 0,
 'wght' 400,
@@ -67,6 +74,7 @@ font-variation-settings:
 }
 
 .material-symbols-outlined:hover {
+transform: scale(1.1);
 font-variation-settings:
 'FILL' 1,
 'wght' 400,
