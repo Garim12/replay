@@ -9,6 +9,10 @@ h1 {
     padding-bottom: 10px;
 }
 
+article {
+    text-align: center;
+}
+
 #indexcolor {
     border-top: 5px pink solid;
     border-bottom: 5px pink solid;
