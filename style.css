@@ -9,8 +9,12 @@ h1 {
     padding-bottom: 10px;
 }
 
-article {
+.linksite {
     text-align: center;
+}
+
+.image {
+    margin: 20px;
 }
 
 #indexcolor {
@@ -75,7 +79,5 @@ font-variation-settings:
     }
     .image {
         width: 50%;
-        display: block;
-        margin-left: 20%;
     }
 }
