@@ -9,37 +9,6 @@
     <title>비챤 다시보기</title>
     <link href="img/VIICHAN2-export.png" rel="shortcut icon" type="image/x-icon">
     <!-- CSS 속성값 -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-        * {
-            font-family: 'Jua', sans-serif;
-        }
-        h1 {
-            text-align: center;
-            border-top: 5px yellowgreen solid;
-            border-bottom: 5px yellowgreen solid;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-        img {
-            display: block;
-            margin: 0 auto;
-        }
-        .material-symbols-outlined {
-        font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 48
-        }
-        .material-symbols-outlined:hover {
-        font-variation-settings:
-        'FILL' 1,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 48
-        }
-    </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WW21BHDRZ"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -57,9 +26,9 @@
     </span>
     </a>
     <!-- 탑 배너 -->
-    <img src="img/유튜브_채널아트-2배경_다른것.jpg" width="50%">
+    <img class="top" src="img/유튜브_채널아트-2배경_다른것.jpg" width="1230px">
     <!-- 제목 -->
-    <h1>비챤</h1>
+    <h1 id="viichancolor">비챤</h1>
     <!-- 유튜브 링크 -->
     <ol>
         <li>
@@ -129,6 +98,7 @@
     <span>
         다시보기 다른 홈페이지:
         <a href="https://isegye.github.io/isedol-archive/Viichan" target="_blank">링크</a>
+        <br>
     </span>
 </body>
 <!-- 채팅 -->
