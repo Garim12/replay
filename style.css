@@ -23,17 +23,41 @@ span {
     text-align: center;
 }
 
-.image {
+.linksite img {
     margin: 20px;
     border-radius: 50px;
     transition: transform 0.3s;
     opacity: 1;
 }
 
-.image:hover {
+.linksite img:hover {
     transform: scale(1.1);
     box-shadow: 4px 4px 4px rgb(104, 93, 93);
     opacity: 0.7;
+}
+
+#ine {
+    border: #892be2 5px solid;
+}
+
+#jing {
+    border: #F0A957 5px solid;
+}
+
+#lilpa {
+    border: #000080 5px solid;
+}
+
+#jururu {
+    border: #800080 5px solid;
+}
+
+#gosegu {
+    border: #467EC6 5px solid;
+}
+
+#viichan {
+    border: #85AC20 5px solid;
 }
 
 #wakcolor {
