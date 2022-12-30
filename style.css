@@ -1,13 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 * {
-    font-family: 'Jua', sans-serif;
+    font-family: 'Goseogu', sans-serif;
 }
 
 h1 {
+    font-size: 58px;
     text-align: center;
-    letter-spacing: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    letter-spacing: 10px;
+    margin-top: 15px;
+}
+
+div {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+span {
+    font-size: 19px;
+    font-weight: bold;
 }
 
 .linksite {
@@ -16,7 +25,6 @@ h1 {
 
 .image {
     margin: 20px;
-    border: #467fc045 1px solid;
     border-radius: 50px;
     transition: transform 0.3s;
     opacity: 1;
